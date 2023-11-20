@@ -31,7 +31,7 @@ task echo;
 
 echo.doFirst {
     println "To run the program from jar:\njava -jar build/libs/running.jar"
-    println "To run the program from class files:\njava -cp build/classes/java/main ui.main"
+    println "To run the program from class files:\njava -cp build/classes/java/main ui.TextUI"
 }
 test {
     useJUnitPlatform()
